@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 
 
   s.source_files  = "SQNetWorking", "SQNetWorking/**/*.{h,m}"
-  s.exclude_files = "SQNetWorking/Customs/Configurations/SQNetWorkingConfig.h"
+  #s.exclude_files = "SQNetWorking/Customs/Configurations/SQNetWorkingConfig.h"
 
-  # s.public_header_files = "Classes/**/*.h"
+  #s.public_header_files = "SQNetWorking/Customs/Configurations/SQNetWorkingConfig.h"
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
