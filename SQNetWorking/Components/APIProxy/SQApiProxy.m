@@ -59,7 +59,8 @@
 #pragma mark - private methods
 - (NSInteger) callApiWithRequest:(NSURLRequest*)request success:(SQCallBack)success fail:(SQCallBack)fail {
     
-    NSURLSessionDataTask *dataTask = [self.sessionManager dataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+    __block NSURLSessionDataTask *dataTask = nil;
+    dataTask = [self.sessionManager dataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
         
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
         NSNumber *reqeustID = @([dataTask taskIdentifier]);

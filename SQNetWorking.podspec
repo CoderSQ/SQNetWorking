@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQNetWorking"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "SQNetWorking."
 
   s.homepage     = "https://github.com/CoderSQ/SQNetWorking.git"
