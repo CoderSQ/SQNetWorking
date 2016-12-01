@@ -14,6 +14,6 @@
 //#import "SQServiceFactory.h"
 #import "SQAppContext.h"
 #import "SQBaseApiManager.h"
-#import "SQNetworkingConfiguration.h"
+#import "SQNetworkingConfig.h"
 
 #endif /* SQNetWorking_h */
