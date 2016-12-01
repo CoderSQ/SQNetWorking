@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184B8ABD1DF02840004384C9 /* SQApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B8ABC1DF02840004384C9 /* SQApiProxy.m */; };
 		185A61A51DEFFC3100CB12A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A61A41DEFFC3100CB12A1 /* main.m */; };
 		185A61A81DEFFC3100CB12A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A61A71DEFFC3100CB12A1 /* AppDelegate.m */; };
 		185A61AB1DEFFC3100CB12A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A61AA1DEFFC3100CB12A1 /* ViewController.m */; };
@@ -23,7 +24,6 @@
 		185A625F1DF01AED00CB12A1 /* NSObject+SQNetWorkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A622E1DF01AED00CB12A1 /* NSObject+SQNetWorkingMethods.m */; };
 		185A62601DF01AED00CB12A1 /* NSString+SQNetWorkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62301DF01AED00CB12A1 /* NSString+SQNetWorkingMethods.m */; };
 		185A62611DF01AED00CB12A1 /* NSURLRequest+RequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62321DF01AED00CB12A1 /* NSURLRequest+RequestParams.m */; };
-		185A62621DF01AED00CB12A1 /* SQApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62361DF01AED00CB12A1 /* SQApiProxy.m */; };
 		185A62631DF01AED00CB12A1 /* SQBaseApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62391DF01AED00CB12A1 /* SQBaseApiManager.m */; };
 		185A62641DF01AED00CB12A1 /* SQCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A623C1DF01AED00CB12A1 /* SQCache.m */; };
 		185A62651DF01AED00CB12A1 /* SQCachedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A623E1DF01AED00CB12A1 /* SQCachedObject.m */; };
@@ -57,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		181951F21DF022A000B35A9B /* SQNetWorkingConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNetWorkingConfig.h; sourceTree = "<group>"; };
+		184B8ABB1DF02840004384C9 /* SQApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQApiProxy.h; sourceTree = "<group>"; };
+		184B8ABC1DF02840004384C9 /* SQApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQApiProxy.m; sourceTree = "<group>"; };
 		185A61A01DEFFC3100CB12A1 /* SQNetWorkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQNetWorkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185A61A41DEFFC3100CB12A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185A61A61DEFFC3100CB12A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,8 +91,6 @@
 		185A62301DF01AED00CB12A1 /* NSString+SQNetWorkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQNetWorkingMethods.m"; sourceTree = "<group>"; };
 		185A62311DF01AED00CB12A1 /* NSURLRequest+RequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+RequestParams.h"; sourceTree = "<group>"; };
 		185A62321DF01AED00CB12A1 /* NSURLRequest+RequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+RequestParams.m"; sourceTree = "<group>"; };
-		185A62351DF01AED00CB12A1 /* SQApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQApiProxy.h; sourceTree = "<group>"; };
-		185A62361DF01AED00CB12A1 /* SQApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQApiProxy.m; sourceTree = "<group>"; };
 		185A62381DF01AED00CB12A1 /* SQBaseApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseApiManager.h; sourceTree = "<group>"; };
 		185A62391DF01AED00CB12A1 /* SQBaseApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseApiManager.m; sourceTree = "<group>"; };
 		185A623B1DF01AED00CB12A1 /* SQCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCache.h; sourceTree = "<group>"; };
@@ -269,8 +269,8 @@
 		185A62341DF01AED00CB12A1 /* APIProxy */ = {
 			isa = PBXGroup;
 			children = (
-				185A62351DF01AED00CB12A1 /* SQApiProxy.h */,
-				185A62361DF01AED00CB12A1 /* SQApiProxy.m */,
+				184B8ABB1DF02840004384C9 /* SQApiProxy.h */,
+				184B8ABC1DF02840004384C9 /* SQApiProxy.m */,
 			);
 			path = APIProxy;
 			sourceTree = "<group>";
@@ -596,7 +596,6 @@
 				185A625D1DF01AED00CB12A1 /* NSDictionary+SQNetWorkingMethods.m in Sources */,
 				185A625F1DF01AED00CB12A1 /* NSObject+SQNetWorkingMethods.m in Sources */,
 				185A62631DF01AED00CB12A1 /* SQBaseApiManager.m in Sources */,
-				185A62621DF01AED00CB12A1 /* SQApiProxy.m in Sources */,
 				185A625C1DF01AED00CB12A1 /* NSArray+SQNetWorkingMethods.m in Sources */,
 				185A61A81DEFFC3100CB12A1 /* AppDelegate.m in Sources */,
 				185A62611DF01AED00CB12A1 /* NSURLRequest+RequestParams.m in Sources */,
@@ -610,6 +609,7 @@
 				185A62671DF01AED00CB12A1 /* SQURLResponse.m in Sources */,
 				185A625E1DF01AED00CB12A1 /* NSMutableString+SQNetWorkingMethods.m in Sources */,
 				185A626C1DF01AED00CB12A1 /* SQSignatureGenerator.m in Sources */,
+				184B8ABD1DF02840004384C9 /* SQApiProxy.m in Sources */,
 				185A61A51DEFFC3100CB12A1 /* main.m in Sources */,
 				185A62651DF01AED00CB12A1 /* SQCachedObject.m in Sources */,
 				185A62601DF01AED00CB12A1 /* NSString+SQNetWorkingMethods.m in Sources */,
