@@ -56,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181951F21DF022A000B35A9B /* SQNetWorkingConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNetWorkingConfig.h; sourceTree = "<group>"; };
 		185A61A01DEFFC3100CB12A1 /* SQNetWorkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQNetWorkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185A61A41DEFFC3100CB12A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185A61A61DEFFC3100CB12A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,7 +103,6 @@
 		185A62441DF01AED00CB12A1 /* SQURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQURLResponse.m; sourceTree = "<group>"; };
 		185A62471DF01AED00CB12A1 /* SQAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQAppContext.h; sourceTree = "<group>"; };
 		185A62481DF01AED00CB12A1 /* SQAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQAppContext.m; sourceTree = "<group>"; };
-		185A624A1DF01AED00CB12A1 /* SQNetWorkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNetWorkingConfig.h; sourceTree = "<group>"; };
 		185A624C1DF01AED00CB12A1 /* SQService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQService.h; sourceTree = "<group>"; };
 		185A624D1DF01AED00CB12A1 /* SQService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQService.m; sourceTree = "<group>"; };
 		185A62501DF01AED00CB12A1 /* SQCommonParmsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCommonParmsGenerator.h; sourceTree = "<group>"; };
@@ -335,7 +335,7 @@
 		185A62491DF01AED00CB12A1 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				185A624A1DF01AED00CB12A1 /* SQNetWorkingConfig.h */,
+				181951F21DF022A000B35A9B /* SQNetWorkingConfig.h */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
