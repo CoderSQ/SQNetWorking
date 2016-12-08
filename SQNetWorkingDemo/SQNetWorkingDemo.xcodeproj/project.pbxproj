@@ -30,11 +30,13 @@
 		185A62661DF01AED00CB12A1 /* SQLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62411DF01AED00CB12A1 /* SQLogger.m */; };
 		185A62671DF01AED00CB12A1 /* SQURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62441DF01AED00CB12A1 /* SQURLResponse.m */; };
 		185A62681DF01AED00CB12A1 /* SQAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62481DF01AED00CB12A1 /* SQAppContext.m */; };
-		185A62691DF01AED00CB12A1 /* SQService.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A624D1DF01AED00CB12A1 /* SQService.m */; };
 		185A626A1DF01AED00CB12A1 /* SQCommonParmsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62511DF01AED00CB12A1 /* SQCommonParmsGenerator.m */; };
 		185A626B1DF01AED00CB12A1 /* SQRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62541DF01AED00CB12A1 /* SQRequestGenerator.m */; };
 		185A626C1DF01AED00CB12A1 /* SQSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A62571DF01AED00CB12A1 /* SQSignatureGenerator.m */; };
 		185A626D1DF01AED00CB12A1 /* SQUUIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A625A1DF01AED00CB12A1 /* SQUUIDGenerator.m */; };
+		18D482BC1DF908BB00DCA518 /* SQService.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D482B91DF908BB00DCA518 /* SQService.m */; };
+		18D482BD1DF908BB00DCA518 /* SQServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D482BB1DF908BB00DCA518 /* SQServiceFactory.m */; };
+		18D482C01DF908D700DCA518 /* HYLHService.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D482BF1DF908D700DCA518 /* HYLHService.m */; };
 		8D765163B56AC0EC1295AE35 /* libPods-SQNetWorkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2415458328E650FABB6B6514 /* libPods-SQNetWorkingDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -103,8 +105,6 @@
 		185A62441DF01AED00CB12A1 /* SQURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQURLResponse.m; sourceTree = "<group>"; };
 		185A62471DF01AED00CB12A1 /* SQAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQAppContext.h; sourceTree = "<group>"; };
 		185A62481DF01AED00CB12A1 /* SQAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQAppContext.m; sourceTree = "<group>"; };
-		185A624C1DF01AED00CB12A1 /* SQService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQService.h; sourceTree = "<group>"; };
-		185A624D1DF01AED00CB12A1 /* SQService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQService.m; sourceTree = "<group>"; };
 		185A62501DF01AED00CB12A1 /* SQCommonParmsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCommonParmsGenerator.h; sourceTree = "<group>"; };
 		185A62511DF01AED00CB12A1 /* SQCommonParmsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCommonParmsGenerator.m; sourceTree = "<group>"; };
 		185A62531DF01AED00CB12A1 /* SQRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRequestGenerator.h; sourceTree = "<group>"; };
@@ -114,6 +114,12 @@
 		185A62591DF01AED00CB12A1 /* SQUUIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQUUIDGenerator.h; sourceTree = "<group>"; };
 		185A625A1DF01AED00CB12A1 /* SQUUIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQUUIDGenerator.m; sourceTree = "<group>"; };
 		185A625B1DF01AED00CB12A1 /* SQNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNetWorking.h; sourceTree = "<group>"; };
+		18D482B81DF908BB00DCA518 /* SQService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQService.h; sourceTree = "<group>"; };
+		18D482B91DF908BB00DCA518 /* SQService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQService.m; sourceTree = "<group>"; };
+		18D482BA1DF908BB00DCA518 /* SQServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQServiceFactory.h; sourceTree = "<group>"; };
+		18D482BB1DF908BB00DCA518 /* SQServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQServiceFactory.m; sourceTree = "<group>"; };
+		18D482BE1DF908D700DCA518 /* HYLHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLHService.h; sourceTree = "<group>"; };
+		18D482BF1DF908D700DCA518 /* HYLHService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLHService.m; sourceTree = "<group>"; };
 		2415458328E650FABB6B6514 /* libPods-SQNetWorkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQNetWorkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CFB7B07DFBAF377F1A7A9C /* Pods-SQNetWorkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQNetWorkingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQNetWorkingDemo/Pods-SQNetWorkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CA665AE78811BA6C86C0E295 /* Pods-SQNetWorkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQNetWorkingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQNetWorkingDemo/Pods-SQNetWorkingDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -225,6 +231,7 @@
 		185A62251DF01AED00CB12A1 /* SQNetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				18D482B71DF908BB00DCA518 /* Services */,
 				185A62261DF01AED00CB12A1 /* Categories */,
 				185A62331DF01AED00CB12A1 /* Components */,
 				185A62451DF01AED00CB12A1 /* Customs */,
@@ -316,9 +323,9 @@
 		185A62451DF01AED00CB12A1 /* Customs */ = {
 			isa = PBXGroup;
 			children = (
+				18D482B61DF9079F00DCA518 /* CustomService */,
 				185A62461DF01AED00CB12A1 /* AppContext */,
 				185A62491DF01AED00CB12A1 /* Configurations */,
-				185A624B1DF01AED00CB12A1 /* Services */,
 			);
 			path = Customs;
 			sourceTree = "<group>";
@@ -338,15 +345,6 @@
 				181951F21DF022A000B35A9B /* SQNetWorkingConfig.h */,
 			);
 			path = Configurations;
-			sourceTree = "<group>";
-		};
-		185A624B1DF01AED00CB12A1 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				185A624C1DF01AED00CB12A1 /* SQService.h */,
-				185A624D1DF01AED00CB12A1 /* SQService.m */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		185A624E1DF01AED00CB12A1 /* Generators */ = {
@@ -394,6 +392,26 @@
 				185A625A1DF01AED00CB12A1 /* SQUUIDGenerator.m */,
 			);
 			path = UUIDgenerator;
+			sourceTree = "<group>";
+		};
+		18D482B61DF9079F00DCA518 /* CustomService */ = {
+			isa = PBXGroup;
+			children = (
+				18D482BE1DF908D700DCA518 /* HYLHService.h */,
+				18D482BF1DF908D700DCA518 /* HYLHService.m */,
+			);
+			path = CustomService;
+			sourceTree = "<group>";
+		};
+		18D482B71DF908BB00DCA518 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18D482B81DF908BB00DCA518 /* SQService.h */,
+				18D482B91DF908BB00DCA518 /* SQService.m */,
+				18D482BA1DF908BB00DCA518 /* SQServiceFactory.h */,
+				18D482BB1DF908BB00DCA518 /* SQServiceFactory.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		47CC4726189E349F3A3704E9 /* Pods */ = {
@@ -594,15 +612,17 @@
 			files = (
 				185A61AB1DEFFC3100CB12A1 /* ViewController.m in Sources */,
 				185A625D1DF01AED00CB12A1 /* NSDictionary+SQNetWorkingMethods.m in Sources */,
+				18D482BD1DF908BB00DCA518 /* SQServiceFactory.m in Sources */,
 				185A625F1DF01AED00CB12A1 /* NSObject+SQNetWorkingMethods.m in Sources */,
 				185A62631DF01AED00CB12A1 /* SQBaseApiManager.m in Sources */,
+				18D482BC1DF908BB00DCA518 /* SQService.m in Sources */,
 				185A625C1DF01AED00CB12A1 /* NSArray+SQNetWorkingMethods.m in Sources */,
 				185A61A81DEFFC3100CB12A1 /* AppDelegate.m in Sources */,
 				185A62611DF01AED00CB12A1 /* NSURLRequest+RequestParams.m in Sources */,
 				185A62641DF01AED00CB12A1 /* SQCache.m in Sources */,
+				18D482C01DF908D700DCA518 /* HYLHService.m in Sources */,
 				185A62661DF01AED00CB12A1 /* SQLogger.m in Sources */,
 				185A626A1DF01AED00CB12A1 /* SQCommonParmsGenerator.m in Sources */,
-				185A62691DF01AED00CB12A1 /* SQService.m in Sources */,
 				185A626D1DF01AED00CB12A1 /* SQUUIDGenerator.m in Sources */,
 				185A61DA1DEFFF3D00CB12A1 /* SQTestApiManager.m in Sources */,
 				185A62681DF01AED00CB12A1 /* SQAppContext.m in Sources */,

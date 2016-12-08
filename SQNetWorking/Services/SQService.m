@@ -10,6 +10,39 @@
 
 @implementation SQService
 
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        if ([self conformsToProtocol:@protocol(SQServiceProtocal)]) {
+            self.child = (id<SQServiceProtocal>)self;
+        }
+    }
+    return self;
+}
+
+#pragma mark - getters and setters
+- (NSString *)privateKey
+{
+    return self.child.isOnline ? self.child.onlinePrivateKey : self.child.offlinePrivateKey;
+}
+
+- (NSString *)publicKey
+{
+    return self.child.isOnline ? self.child.onlinePublicKey : self.child.offlinePublicKey;
+}
+
+- (NSString *)apiBaseUrl
+{
+    return self.child.isOnline ? self.child.onlineApiBaseUrl : self.child.offlineApiBaseUrl;
+}
+
+- (NSString *)apiVersion
+{
+    return self.child.isOnline ? self.child.onlineApiVersion : self.child.offlineApiVersion;
+}
+
 + (instancetype)sharedInstance {
     
     static SQService *service = nil;
@@ -19,23 +52,6 @@
     });
     
     return service;
-}
-
-- (NSString *)publicKey {
-    return @"";
-}
-
-- (NSString *)privateKey {
-    return @"";
-}
-
-- (NSString *)apiBaseUrl {
-//    return @"http://restapi.amap.com";
-    return @"http://192.168.19.22:8082";
-}
-
-- (NSString *)apiVersion {
-    return @"";
 }
 
 
@@ -53,3 +69,5 @@
 }
 
 @end
+
+
